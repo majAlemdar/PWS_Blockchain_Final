@@ -1,0 +1,20 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "node_1": "node --watch dev/networkNode.js 3001",
+    "node_2": "node --watch dev/networkNode.js 3002",
+    "node_3": "node --watch dev/networkNode.js 3003",
+    "node_4": "node --watch dev/networkNode.js 3004"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "sha256": "^0.2.0"
+  }
+}
